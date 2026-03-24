@@ -55,6 +55,7 @@ h1 {
     align-items: center;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
+    border-radius: 16px;
 }
 
 .profile img {
@@ -64,6 +65,7 @@ h1 {
     border-radius: 4px;
     border: 3px solid transparent; 
     transition: border-color 0.2s ease;
+    border-radius: 50%;
 }
 
 .profile span {
