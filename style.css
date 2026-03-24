@@ -13,6 +13,31 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
+
+    /* Define a cor de segurança */
+    background-color: #000000;
+
+    /* Camada 1 (Cima): Preto com 70% de opacidade (rgba 0,0,0, 0.7) */
+    /* Camada 2 (Baixo): Imagem de fundo */
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+        url('./assets/background.png');
+    
+    /* Define a imagem de fundo */
+    /*background-image: url('./assets/background.png');
+
+    /* Garante que a imagem cubra todo o espaço disponível sem distorcer */
+    background-size: cover;
+
+    /* Centraliza a imagem horizontal e verticalmente */
+    background-position: center;
+
+    /* Impede que a imagem se repita caso seja menor que a tela */
+    background-repeat: no-repeat;
+
+    /* Faz com que o fundo fique fixo enquanto você rola a página (opcional) */
+    background-attachment: fixed;
 }
 
 a {
