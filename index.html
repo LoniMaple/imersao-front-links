@@ -7,22 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Conteúdo principal da página de seleção de perfil -->
     <main>
         <h1>Quem está assistindo?</h1>
-        <div class="profiles">
-            <button class="profile">
-                <img src="./assets/Maple.jpeg" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'" alt="Perfil 1">
-                <p>Maple</p>
-            </button>
-            <button class="profile">
-                <img src="./assets/Nyx.jpeg" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'" alt="Perfil 2">
-                <p>Nyx</p>
-            </button>
-            <button class="profile">
-                <span>+</span>
-                <p>Adicionar perfil</p>
-            </button>
-        </div>
+        <!-- Lista de perfis renderizada dinamicamente via JavaScript -->
+        <ul class="profiles">
+        </ul>
     </main>
+
+    <!-- Script que carrega perfis do localStorage ou JSON padrão -->
+    <script src="main.js"></script>
 </body>
 </html>
