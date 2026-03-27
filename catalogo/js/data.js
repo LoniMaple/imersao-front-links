@@ -7,7 +7,7 @@ export const categories = [
                 youtube: "https://www.youtube.com/watch?v=sqfcEPAZCfM&pp=ygUQYmF6ZWxnZXVzZSBhcGVhcg%3D%3D"
             },
             {
-                img: "https://tse3.mm.bing.net/th/id/OIP.DDJyJWN40VXYDUCCw87pvQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", progress: 0,
+                img: "https://tse3.mm.bing.net/th/id/OIP.DDJyJWN40VXYDUCCw87pvQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", progress: 30,
                 youtube: "https://www.youtube.com/watch?v=aZTedgis-ZE&pp=ygUVemlub2dyZSBhcGVhciBtaCByaXNl"
             },
             {
@@ -15,7 +15,7 @@ export const categories = [
                 youtube: "https://www.youtube.com/watch?v=Gyf6g2Ysb80&pp=ygUUYXp1cnVzIGludHJvIG1oIHJpc2XSBwkJ2woBhyohjO8%3D"
             },
             {
-                img: "https://static.wikia.nocookie.net/5e2ad142-9610-49bd-849e-7a2ef4df269b/scale-to-width/755", progress: 0,
+                img: "https://static.wikia.nocookie.net/5e2ad142-9610-49bd-849e-7a2ef4df269b/scale-to-width/755", progress: 80,
                 youtube: "https://www.youtube.com/watch?v=oG4rj2Y-QUY&pp=ygUUYXp1cnVzIGludHJvIG1oIHJpc2U%3D"
             },
         ]
