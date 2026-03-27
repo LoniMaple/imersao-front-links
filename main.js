@@ -61,6 +61,16 @@ function renderizarPerfis() {
     button.appendChild(p);
     li.appendChild(button);
     ul.appendChild(li);
+
+    // --- Envia para o catálogo ---
+    // Adiciona o evento de clique para salvar o perfil e redirecionar
+    button.addEventListener('click', () => {
+      // Salva o perfil selecionado no localStorage
+      localStorage.setItem('perfilAtual', JSON.stringify(perfil));
+      // Redireciona para a página do catálogo
+      window.location.href = './catalogo/catalogo.html'; 
+    });
+    // ------------------------
   });
 
   // Cria botão de adicionar novo perfil (sempre visível no fim da lista)
