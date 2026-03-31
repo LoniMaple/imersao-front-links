@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
+    <title>Hunterflix</title>
+    <link href="https://fonts.cdnfonts.com/css/monster-hunter?styles=34177" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/monster-hunter" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/Logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>Quem está assistindo?</h1>
-        <div class="profiles">
-            <button class="profile">
-                <img src="/assets/Maple.jpeg" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'" alt="Perfil 1">
-                <p>Maple</p>
-            </button>
-            <button class="profile">
-                <img src="/assets/Nyx.jpeg" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'" alt="Perfil 2">
-                <p>Nyx</p>
-            </button>
-            <button class="profile">
-                <span>+</span>
-                <p>Adicionar perfil</p>
+    
+    <header class="navbar" id="navbar">
+        <div class="navbar-left">
+            
+        </div>
+
+        <div class="navbar-center">
+            <img class="logo" src="./assets/Logo.png" alt="Hunterflix">
+        </div>
+
+        <div class="navbar-right">
+            <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">
+                <span id="theme-icon">☀️</span>
             </button>
         </div>
+    </header>
+
+    <main>
+        <h1>Quem está assistindo?</h1>
+        <ul class="profiles">
+        </ul>
     </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
