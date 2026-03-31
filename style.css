@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Monster Hunter', sans-serif;
     background-color: #000000; /* Corrigido para não duplicar regras */
     color: #ffffff;
     display: flex;
@@ -85,7 +85,7 @@ h1 {
 
 .logo {
     max-width: 650px; /* Define um tamanho máximo fixo para não ficar gigante */
-    width: 60vw;      /* Ela cresce ou diminui baseada na largura da tela (responsiva) */
+    width: 45vw;      /* Ela cresce ou diminui baseada na largura da tela (responsiva) */
     height: auto;
     cursor: pointer;
     display: block;
@@ -156,6 +156,7 @@ h1 {
     font-size: 1.5rem;
     text-align: center;
     transition: color 0.2s ease;
+    font-family: 'Monster Hunter Staggered', sans-serif;
 }
 
 /* Efeitos de Hover */
@@ -175,13 +176,14 @@ h1 {
 /* --- Estilos do Botão de Tema --- */
 .theme-btn {
     position: absolute;
+    font-size: 1.8rem;
     top: 20px;
     right: 30px;
     background: transparent;
     border: none;
     font-size: 2rem;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 2000;
     transition: transform 0.2s ease;
 }
 

@@ -135,8 +135,10 @@ themeToggleBtn.addEventListener('click', () => {
     if (isLight) {
         themeIcon.textContent = '🌙'; 
         localStorage.setItem('theme', 'light');
+        console.log('Tema claro ativado');
     } else {
         themeIcon.textContent = '🌤️'; 
         localStorage.setItem('theme', 'dark');
+        console.log('Tema escuro ativado');
     }
 });

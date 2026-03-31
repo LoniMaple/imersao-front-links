@@ -45,4 +45,35 @@ document.addEventListener('DOMContentLoaded', () => {
             container.appendChild(carousel);
         });
     }
+
+    // --- Lógica do Modo Claro / Escuro ---
+
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const body = document.body;
+
+    // Verifica se o usuário já havia escolhido um tema
+    const savedTheme = localStorage.getItem('theme');
+
+    // Aplica o tema salvo logo na inicialização
+    if (savedTheme === 'light') {
+        body.classList.add('light-mode');
+        themeIcon.textContent = '🌙'; 
+    }
+
+    // Evento de clique para alternar
+    themeToggleBtn.addEventListener('click', () => {
+        body.classList.toggle('light-mode');
+        const isLight = body.classList.contains('light-mode');
+        
+        if (isLight) {
+            themeIcon.textContent = '🌙'; 
+            localStorage.setItem('theme', 'light');
+            console.log('Tema claro ativado');
+        } else {
+            themeIcon.textContent = '🌤️'; 
+            localStorage.setItem('theme', 'dark');
+            console.log('Tema escuro ativado');
+        }
+    });
 });

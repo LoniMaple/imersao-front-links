@@ -1,6 +1,6 @@
 export const categories = [
     {
-        title: "Épicos",
+        title: "Recomendados para você",
         items: [
             {
                 img: "https://th.bing.com/th/id/R.6bc7dbfd652b8efd33e5afab8495ddd3?rik=xEXHo1QsrdTL4g&pid=ImgRaw&r=0", top10: true, badge: "Serpe Alada", badgeColor: "red", progress: 0,
@@ -23,19 +23,37 @@ export const categories = [
     {
         title: "Séries",
         items: [
-            { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Nova temporada", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
+            { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Nova temporada", badgeColor: "red", youtube: "https://youtu.be/5HQOrgOjuQU?list=PL60SfTrykhMxaw1tEuHf9DyWdUcrc4ECS" },
             { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", top10: true, youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
             { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
             { img: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop", badge: "Novidade", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
         ]
     },
     {
-        title: "Para maratonar",
+        title: "Tutorial Avançado",
         items: [
             { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
             { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novidade", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
             { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
             { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
+        ]
+    },
+    {
+        title: "Ação",
+        items: [
+            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
+            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novidade", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
+            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
+            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
+        ]
+    },
+    {
+        title: "Tokusatsu",
+        items: [
+            { img: "https://wallpapercave.com/wp/wp3729338.jpg", top10: true, youtube: "https://youtu.be/aOuJYKUvdHY" },
+            { img: "https://static.wikia.nocookie.net/kamenrider/images/b/be/Zero-One_Poster.jpg/revision/latest/scale-to-width-down/1200?cb=20190717133445", top10: true, badge: "Novidade", badgeColor: "red", youtube: "https://youtu.be/WnfnnZZH6cQ" },
+            { img: "https://wallpaperaccess.com/full/4067060.jpg", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://youtu.be/aMK2on0Py4s" },
+            { img: "https://i.mydramalist.com/RLboP_4f.jpg", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://youtu.be/QUVv9pnh5Uw" },
         ]
     }
 ];
